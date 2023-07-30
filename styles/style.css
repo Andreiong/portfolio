@@ -1,0 +1,47 @@
+:root {
+  --clr-light: #fff;
+  --clr-text: #ffffffd0;
+  --clr-rose: #d92de2;
+  --clr-navy: #38abe2;
+  --clr--gradient: #751adf;
+  --clr--bg: #08071b;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+html {
+  scroll-behavior: smooth;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--clr--bg);
+}
+p {
+  color: var(--clr-light);
+}
