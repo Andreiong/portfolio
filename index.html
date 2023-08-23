@@ -2,13 +2,148 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/vite.svg" />
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
   </head>
   <body>
-    <p>Hello World</p>
-    <button>hi</button>
+    <header class="header container">
+      <div class="logo">
+        <img src="public/assets/well_logo.png" alt="" />
+      </div>
+      <nav>
+        <ul class="header_menu">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="header_line"></li>
+          <li>
+            <button class="header_sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header_button" href="#">Resume</a>
+          </li>
+        </ul>
+        <button class="header_bar">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="blob"></div>
+      <!--HERO SECTION-->
+      <section class="hero section spacer">
+        <p class="hero_title above-title">Hi, my name is</p>
+        <h2 class="hero_name">Andrei Nowell Ong |</h2>
+        <h2 class="hero_sub hero_name">Full Stack Developer</h2>
+        <p class="hero_description">
+          Explore restaurants that deliver near you, it’s easy to find food you
+          crave, and order online or through the Foodea app. Find great meals
+          fast with lots of menus to choose from.
+        </p>
+        <a class="btn" href="#"
+          >Check out my Github <i class="fab fa-github" aria-hidden="true"></i
+        ></a>
+      </section>
+      <!--ABOUT SECTION-->
+      <section class="about section spacer">
+        <div class="about-blob"></div>
+        <div class="title_container">
+          <span class="about_title">About Me</span>
+          <div class="about_line"></div>
+        </div>
+        <p class="about_description">
+          Explore restaurants that deliver near you, it’s easy to find food you
+          crave, and order online or through the Foodea app. Find great meals
+          fast with lots of menus to choose from. Enjoy eating the convenient
+          way with places that deliver to your door.
+        </p>
+
+        <div class="about_ul-container">
+          <div class="about_ul">
+            <ul>
+              <li class="list_heading">Language :</li>
+              <li>PHP</li>
+              <li>MYSQL</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <div class="about_ul">
+            <ul>
+              <li>JavaScript</li>
+              <li>C#</li>
+              <li>C</li>
+              <li>.Net</li>
+            </ul>
+          </div>
+          <div class="about_ul">
+            <ul>
+              <li class="list_heading">Frameworks :</li>
+              <li>Laravel</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="about_ul">
+            <ul>
+              <li class="list_heading">Tools :</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Vite</li>
+              <li>Visual Code</li>
+              <li>Visual Studio</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
+    </main>
+
+    <footer></footer>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
